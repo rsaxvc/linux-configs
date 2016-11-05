@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# man-db cron weekly
+
+/usr/bin/certbot renew --quiet --no-self-upgrade
+
+exit 0
